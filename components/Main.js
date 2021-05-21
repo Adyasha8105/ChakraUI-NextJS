@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Image, Heading, Stack, Text } from "@chakra-ui/react"
 import Card from "./Card"
-
+import Howitworks from "./Howitworks"
 export default function Main() {
   return (
     <>
@@ -12,8 +12,8 @@ export default function Main() {
       minH="80vh"
       px={8}
       mb={16}
-      pt={[10,30,50]}
-      pb={[10,30,50]}
+      pt={[10,30,50, 70]}
+      pb={[10,30, 50, 70]}
     >
       <Stack
         spacing={8}
@@ -23,7 +23,7 @@ export default function Main() {
         <Heading
           as="h1"
           fontSize={{ base: "35px", md:"45px", xl: "62px" }}
-          fontWeight="650"
+          fontWeight="bold"
           letterSpacing="2%"
           color="primary.800"
           textAlign={["center", "center", "left", "left"]}
@@ -65,8 +65,9 @@ export default function Main() {
         <Image src="./intro.svg" size="100%" />
       </Box>
     </Flex>
-    
+
   <Card />
+  <Howitworks />
   </>
   )
 }
