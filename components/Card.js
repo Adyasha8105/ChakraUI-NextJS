@@ -4,7 +4,8 @@ import {
   Icon,
   Text,
   Stack,
-  SimpleGrid
+  SimpleGrid,
+  Heading
 } from "@chakra-ui/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -38,9 +39,9 @@ export default function Card() {
       justify={{ base: "center", md: "space-around"}}
       direction={{ base: "column-reverse", md: "row" }}
       wrap="no-wrap"
-      minH="80vh"
-      pt={[10,30,50, 70]}
-      pb={[10,30, 50, 70]}
+      minH="90vh"
+      pt={[10,30,50,75]}
+      pb={[10,30,50,75]}
       backgroundColor="#F3F1F3"
       centerContent>
         <SimpleGrid columns={[1, 2, 3]}>
@@ -77,7 +78,7 @@ export default function Card() {
                   <FontAwesomeIcon icon={icon} />
                 </Icon>
                 
-                <Text
+                <Heading
                   fontWeight="bold"
                   textTransform="uppercase"
                   fontSize="2xl"
@@ -87,12 +88,14 @@ export default function Card() {
                   pt={4}
                 >
                   {product}
-                </Text>
+                </Heading>
                 <Text
                   my={1}
                   display="block"
-                  fontSize="xl"
-                  letterSpacing="3%"
+                  lineHeight="normal"
+                  fontSize={{ base: "15px", md:"18px", xl: "22px" }}
+                  color="primary.700"
+                  letterSpacing="1px"
                   lineHeight="normal"
                   fontWeight="normal"
                   align="center"
