@@ -46,7 +46,7 @@ const Header = (props) => {
           bg="black"
           variant="outline"
           me={2}
-          _hover={{ opacity: "0.8", borderColor: "teal.700" }}
+          _hover={{ opacity: "0.8", borderColor: "white" }}
         >
           SIGN IN
         </Button>
@@ -54,7 +54,7 @@ const Header = (props) => {
           bg="black"
           variant="outline"
           me={2}
-          _hover={{ opacity: "0.8", borderColor: "teal.700" }}
+          _hover={{ opacity: "0.8", borderColor: "white" }}
         >
           SIGN UP
         </Button>
