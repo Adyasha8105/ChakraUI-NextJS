@@ -94,7 +94,7 @@ export default function Howitworks() {
             return (
               <Box
               display={{ md: "flex" }}
-              p={7}
+              px={[7, 12, 20]}
               transition="transform 0.5s"
               borderRadius="8px"          
             >
