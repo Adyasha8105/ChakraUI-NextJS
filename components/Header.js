@@ -7,15 +7,6 @@ import {
   useDisclosure
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { createBreakpoints } from "@chakra-ui/theme-tools"
-
-const breakpoints = createBreakpoints({
-  sm: "20em",
-  md: "48em",
-  lg: "62em",
-  xl: "80em",
-  "2xl": "96em",
-})
 
 const Header = (props) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -30,13 +21,14 @@ const Header = (props) => {
       bg="white"
       color="white"
       boxShadow="0 5px 10px rgb(154 160 185 / 5%), 0 15px 40px rgb(166 173 201 / 20%)"
-      pr={[5,18,50,120]}
-      pl={[5,18,50,120]}
+      pr={[8,19,50,120]}
+      pl={[8,19,50,120]}
+      px={8}
       {...props}
     >
       <Flex align="center" mr={5}>
         <Box 
-        w={[100, 140, 170]}
+        w={[100, 120, 150]}
         objectFit="cover">
           <Image src="./logo.svg" alt="Logo" />
         </Box>
