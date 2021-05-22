@@ -110,7 +110,6 @@ export default function Howitworks() {
 
 									<Heading
 										fontWeight="bold"
-										textTransform="uppercase"
 										fontSize="2xl"
 										letterSpacing="wide"
 										color="black"
