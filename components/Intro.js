@@ -20,10 +20,11 @@ export default function Main() {
 				>
 					<Heading
 						as="h1"
-						fontSize={{ base: "35px", md: "45px", xl: "62px" }}
+						fontSize={{ base: "25px", md: "35px", xl: "42px" }}
 						fontWeight="bold"
 						letterSpacing="2%"
 						color="primary.800"
+						letterSpacing="1px"
 						textAlign={["center", "center", "left", "left"]}
 					>
 						<Text as="abbr">Making Original Truely </Text>
@@ -32,9 +33,10 @@ export default function Main() {
 						</Text>
 					</Heading>
 					<Heading
-						fontSize={{ base: "15px", md: "18px", xl: "22px" }}
+						fontSize={{ base: "14px", md: "16px", xl: "18px" }}
 						lineHeight={1.5}
 						textAlign={["center", "center", "left", "left"]}
+						letterSpacing="1px"
 					>
 						<Text as="abbr" color="primary.700" opacity="0.7" fontWeight="normal">
 							Elegant and digitally immutable certificates of authenticity for the original artwork.{" "}
@@ -48,7 +50,8 @@ export default function Main() {
 						bg="black"
 						variant="outline"
 						color="white"
-						p={6}
+						fontSize={{ base: "14px", md: "14px", xl: "16px" }}
+						p={4}
 						_hover={{ opacity: "0.8", borderColor: "white" }}
 						_active={{ color: "white" }}
 					>

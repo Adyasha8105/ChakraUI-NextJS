@@ -21,13 +21,12 @@ const Header = (props) => {
 			bg="white"
 			color="white"
 			boxShadow="0 5px 10px rgb(154 160 185 / 5%), 0 15px 40px rgb(166 173 201 / 20%)"
-			pr={[8, 19, 50, 120]}
-			pl={[8, 19, 50, 120]}
-			px={8}
+			pr={[8, 19, 50, 100]}
+			pl={[8, 19, 50, 100]}
 			{...props}
 		>
 			<Flex align="center" mr={5}>
-				<Box w={[100, 120, 150]} objectFit="cover">
+				<Box w={[100, 130]} objectFit="cover">
 					<Link href="/">
 						<Image src="./logo.svg" alt="Logo" />
 					</Link>
@@ -51,6 +50,7 @@ const Header = (props) => {
 				</Button>
 				<Button
 					bg="black"
+					fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 					variant="outline"
 					me={2}
 					_hover={{ opacity: "0.8", borderColor: "white" }}
@@ -60,6 +60,7 @@ const Header = (props) => {
 				</Button>
 				<Button
 					bg="black"
+					fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 					variant="outline"
 					me={2}
 					_hover={{ opacity: "0.8", borderColor: "white" }}
