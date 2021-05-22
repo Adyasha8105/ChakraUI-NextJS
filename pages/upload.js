@@ -44,7 +44,7 @@ const Upload = () => {
 			<SimpleGrid>
 				<Heading
 					as="h1"
-					fontSize={{ base: "25px", md: "35px", xl: "52px" }}
+					fontSize={{ base: "25px", md: "35px", xl: "42px" }}
 					fontWeight="bold"
 					letterSpacing="2%"
 					color="primary.800"
@@ -92,12 +92,13 @@ const Upload = () => {
 					variant="outline"
 					margin="auto"
 					color="white"
+					fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 					mt={6}
-					p={6}
+					p={4}
 					_hover={{ opacity: "0.8", borderColor: "white" }}
 					_active={{ color: "white" }}
 				>
-					SEARCH
+					Search
 				</Button>
 			</SimpleGrid>
 		</Flex>
