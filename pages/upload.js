@@ -51,7 +51,7 @@ const Upload = () => {
 					textAlign={["center", "center", "left", "left"]}
 					mb={2}
 				>
-					<Text as="abbr">REVERSE IMAGE </Text>
+					<Text as="abbr">Reverse Image </Text>
 					<Text as="abbr" color="rgba(235,109,109)">
 						SEARCH
 					</Text>
