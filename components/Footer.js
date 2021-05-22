@@ -26,8 +26,7 @@ export default function Footer() {
           lg: '28',
         }}
       >
-        <Box flex={1}
-        minW="200px">
+        <Box flex={1} minW={120}>
           <Image src="./logo.png" alt="Logo" />
         <Text color="#878787" pt={6} fontSize={{ base: "15px", md:"18px", xl: "22px" }} letterSpacing="1px">
         Making original truly unique
@@ -51,7 +50,7 @@ export default function Footer() {
             lg: '28',
           }}
           flex="1">
-            <Box minW="380px" >
+            <Box minW={[0, 100,320]} >
               <Stack color="#878787" 
               fontSize={{ base: "15px", md:"18px", xl: "22px" }}
               >
@@ -60,17 +59,18 @@ export default function Footer() {
                 <Link>Our Collective</Link>
               </Stack>
             </Box>
-            <Box minW="380px"
-            fontSize={{ base: "15px", md:"18px", xl: "22px" }}
-            >
-              <Stack color="#878787">
+            <Box minW={[0, 100, 320]}>
+              <Stack color="#878787"
+              fontSize={{ base: "15px", md:"18px", xl: "22px" }}
+              >
                 <Link>Blog</Link>
                 <Link>Why Uncopied?</Link>
                 <Link>Contact Us</Link>
               </Stack>
             </Box>
             </SimpleGrid>
-            <Stack
+        </Stack>
+        <Stack
               direction={{
                 base: 'column',
                 md: 'row',
@@ -92,7 +92,6 @@ export default function Footer() {
             </ButtonGroup>
             </Box>
             </Stack>
-        </Stack>
       </Stack>
       <Stack
         direction={{
@@ -102,7 +101,7 @@ export default function Footer() {
         justifyContent="space-between"
         alignSelf="center"
       >
-          <Text color="#878787" textAlign="center" fontSize={{ base: "15px", md:"18px", xl: "22px" }} >
+          <Text color="#878787" textAlign="center" fontSize={{ base: "15px", md:"16px", xl: "20px" }} >
             Copyright &copy; {new Date().getFullYear()} , All Rights Reserved <Text as="abbr" color="rgba(235,109,109)">Uncopied</Text>
           </Text>
       </Stack>

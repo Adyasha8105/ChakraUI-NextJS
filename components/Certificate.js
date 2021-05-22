@@ -49,6 +49,7 @@ export default function Main() {
           backgroundColor="#CACACA"
           p={6}
           _hover={{ opacity: "0.8", borderColor: "white" }}
+          _active={{color: "white"}}
         >
           READ MORE
         </Button>

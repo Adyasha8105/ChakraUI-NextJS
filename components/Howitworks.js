@@ -82,7 +82,7 @@ export default function Howitworks() {
       <Text
         as="abbr"
       > 
-        HOW IT</Text>
+        How it</Text>
       <Text         
         as="abbr"
         color="rgba(235,109,109)"
