@@ -50,7 +50,7 @@ export default function Main() {
 						_hover={{ opacity: "0.8", borderColor: "white" }}
 						_active={{ color: "white" }}
 					>
-						READ MORE
+						Read More
 					</Button>
 					{/* </Link> */}
 				</Stack>

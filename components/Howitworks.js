@@ -13,42 +13,42 @@ export default function Howitworks() {
 		{
 			id: 1,
 			icon: faUserPlus,
-			heading: "CREATE ACCOUNT",
+			heading: "Create Account",
 			summary:
 				"Create your personal account with your artist name. Optionally link your account with your blockchain address.",
 		},
 		{
 			id: 2,
 			icon: faImage,
-			heading: "UPLOAD ARTWORK",
+			heading: "Upload Artwork",
 			summary:
 				"Upload your high-definition source image for long-term conservation in the Interplanetary File System (IPFS).",
 		},
 		{
 			id: 3,
 			icon: faFileCode,
-			heading: "CREATE EDITION",
+			heading: "Create Edition",
 			summary:
 				"Create your art edition : unique physical original, limited edition or crypto-art / NFTs.",
 		},
 		{
 			id: 4,
 			icon: faGem,
-			heading: "MINT BLOCKCHAIN ASSET",
+			heading: "Mint Blockchain Asset",
 			summary:
 				"We create for you a unique asset (NFT) in the blockchain and you receive the certificate PDF document to your mailbox.",
 		},
 		{
 			id: 5,
 			icon: faFileSignature,
-			heading: "SECURE CERTIFICATE",
+			heading: "Secure Certificate",
 			summary:
 				"Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
 		},
 		{
 			id: 6,
 			icon: faFileSignature,
-			heading: "CREATE ACCOUNT",
+			heading: "Create Account",
 			summary:
 				"Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
 		},

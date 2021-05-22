@@ -55,7 +55,7 @@ export default function Main() {
 						_hover={{ opacity: "0.8", borderColor: "white" }}
 						_active={{ color: "white" }}
 					>
-						DISCOVER
+						Discover
 					</Button>
 					{/* </Link> */}
 				</Stack>
