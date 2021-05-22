@@ -57,7 +57,7 @@ export default function Main() {
 					{/* </Link> */}
 				</Stack>
 				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
-					<Image src="./intro.svg" size="100%" />
+					<Image src="./Intro.svg" size="100%" />
 				</Box>
 			</Flex>
 		</>
