@@ -22,7 +22,7 @@ export default function Main() {
 						as="h1"
 						fontSize={{ base: "25px", md: "35px", xl: "42px" }}
 						fontWeight="bold"
-						letterSpacing="2%"
+						letterSpacing="1px"
 						color="primary.800"
 						letterSpacing="1px"
 						textAlign={["center", "center", "left", "left"]}

@@ -48,8 +48,9 @@ const Upload = () => {
 					fontWeight="bold"
 					letterSpacing="2%"
 					color="primary.800"
+					margin="auto"
 					textAlign={["center", "center", "left", "left"]}
-					mb={2}
+					mb={4}
 				>
 					<Text as="abbr">Reverse Image </Text>
 					<Text as="abbr" color="rgba(235,109,109)">
