@@ -10,7 +10,6 @@ export default function Main() {
 				minH="90vh"
 				px={8}
 				mb={16}
-				pt={[10, 30, 50, 70]}
 				pb={[10, 30, 50, 70]}
 			>
 				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
