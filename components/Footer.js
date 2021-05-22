@@ -7,13 +7,14 @@ export default function Footer() {
   <Box
     as="footer"
     role="contentinfo"
-    py="12"
+    pt="12"
+    pb="6"
     backgroundColor="#151414"
     pr={[8,20,50,120]}
     pl={[8,20,50,120]}
     px={8}
   >
-    <Stack spacing="10" divider={<StackDivider />}>
+    <Stack spacing="5" divider={<StackDivider borderColor="#878787" />}>
       <Stack
         pb={10}
         direction={{

@@ -20,31 +20,37 @@ import {
 export default function Howitworks() {
   const dataList = [
     {
+      id: 1,
       icon: faUserPlus,
       heading: "CREATE ACCOUNT",
       summary: "Create your personal account with your artist name. Optionally link your account with your blockchain address.",
     },
     {
+      id: 2,
       icon: faImage,
       heading: "UPLOAD ARTWORK",
       summary: "Upload your high-definition source image for long-term conservation in the Interplanetary File System (IPFS).",
     },
     {
+      id: 3,
       icon: faFileCode,
       heading: "CREATE EDITION",
       summary: "Create your art edition : unique physical original, limited edition or crypto-art / NFTs.",
     },
     {
+      id: 4,
       icon: faGem,
       heading: "MINT BLOCKCHAIN ASSET",
       summary: "We create for you a unique asset (NFT) in the blockchain and you receive the certificate PDF document to your mailbox.",
     },
     {
+      id: 5,
       icon: faFileSignature,
       heading: "SECURE CERTIFICATE",
       summary: "Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
     },
     {
+      id: 6,
       icon: faFileSignature,
       heading: "CREATE ACCOUNT",
       summary: "Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
@@ -87,12 +93,13 @@ export default function Howitworks() {
       align="center"
       justify={{ base: "center", md: "space-around"}}
       direction={{ base: "column-reverse", md: "row" }}
-      centerContent>
+      >
           <SimpleGrid columns={[1,2,3]}>
           {dataList.map(function (data) {
-            const { heading, summary, icon } = data;
+            const { id, heading, summary, icon } = data;
             return (
               <Box
+              key={id}
               display={{ md: "flex" }}
               px={[7, 12, 20]}
               transition="transform 0.5s"

@@ -17,16 +17,19 @@ import {
 export default function Card() {
   const dataList = [
     {
+      id: 1,
       icon: faPenSquare,
       product: "Artists",
       summary: "The Certificate of Authenticity (CoA) offers strong long term protection for your intellectual property. You gain control and decide with maximum flexibility on creating physical or digital editions of your artworks (single original edition, limited edition of original prints, digital prints or non fungible tokens NFTs).",
     },
     {
+      id: 2,
       icon: faHandsHelping,
       product: "Collectors",
       summary: "The Certificate of Expertise (CoE) secure your collection of physical art works with digitally signed documents from world-class experts and art appraisers. Crypto art collectors can issue new cryptographic certificates for older NFT collectibles, backing up digital sources and transaction history from Ethereum ERC721 or ERC1155.",
     },
     {
+      id: 3,
       icon: faCertificate,
       product: "Museums",
       summary: "The Certificates of Inventory (CoI) support conservation of your physical collections, with long term conservation of digital assets as well as dissemination of your collections metadata in a standard and future-proof format.",
@@ -43,12 +46,13 @@ export default function Card() {
       pt={[10,30,50,75]}
       pb={[10,30,50,75]}
       backgroundColor="#F3F1F3"
-      centerContent>
+      >
         <SimpleGrid columns={[1, 2, 3]}>
           {dataList.map(function (data) {
-            const { product, summary, icon } = data;
+            const { id,product, summary, icon } = data;
             return (
               <Box
+              key={id}
               p={7}
               display={{ md: "flex" }}
               maxWidth="35rem"
