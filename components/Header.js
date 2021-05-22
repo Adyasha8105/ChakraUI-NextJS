@@ -43,7 +43,7 @@ const Header = (props) => {
 					color="rgba(235,109,109)"
 					variant="outline"
 					me={2}
-					fontSize={{ base: "20px", md: "25px", xl: "30px" }}
+					fontSize={{ base: "14px", md: "16px", xl: "22px" }}
 					onClick={routeToUpload}
 				>
 					<FontAwesomeIcon icon={faEye} />

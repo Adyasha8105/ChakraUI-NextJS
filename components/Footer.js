@@ -7,7 +7,6 @@ import {
 	Image,
 	ButtonGroup,
 	IconButton,
-	Heading,
 	Text,
 } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

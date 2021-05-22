@@ -64,7 +64,6 @@ export default function Card() {
 								textAlign={{ base: "center", md: "left" }}
 								mt={{ base: 4, md: 0 }}
 								m={{ md: 6 }}
-								p={6}
 							>
 								<Icon
 									color="rgba(235,109,109)"
