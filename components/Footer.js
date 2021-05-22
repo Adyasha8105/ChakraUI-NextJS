@@ -8,6 +8,7 @@ import {
 	ButtonGroup,
 	IconButton,
 	Text,
+	Select
 } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faGithub, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -36,16 +37,26 @@ export default function Footer() {
 						lg: "28",
 					}}
 				>
-					<Box flex={1} minW={200}>
+					<Box flex={1} minW={240}>
 						<Image src="./logo.png" w={[100, 130]} alt="Logo" />
 						<Text
 							color="#878787"
-							pt={6}
+							py={4}
 							fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 							letterSpacing="1px"
 						>
 							Making original truly unique
 						</Text>
+						<Box>
+						<Select
+							size="xs"
+							w={20}
+							color="#151414"
+							bg="#fff">
+							<option value="en">EN</option>
+							<option value="fr">FR</option>
+						</Select>
+						</Box>
 					</Box>
 					<Stack
 						direction={{
@@ -68,16 +79,16 @@ export default function Footer() {
 						>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link>Home</Link>
-									<Link>Services</Link>
-									<Link>Our Collective</Link>
+									<Link href="/">Home</Link>
+									<Link href="https://uncopied.art/blog/">Services</Link>
+									<Link href="https://uncopied.art/about/">Our Collective</Link>
 								</Stack>
 							</Box>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link>Blog</Link>
-									<Link>Why Uncopied?</Link>
-									<Link>Contact Us</Link>
+									<Link href="https://uncopied.art/about/">Blog</Link>
+									<Link href="https://opencollective.com/uncopied">Why Uncopied?</Link>
+									<Link href="https://uncopied.art/contact/">Contact Us</Link>
 								</Stack>
 							</Box>
 						</SimpleGrid>
@@ -108,7 +119,7 @@ export default function Footer() {
 							<ButtonGroup variant="ghost" color="#878787">
 								<IconButton
 									as="a"
-									href="#"
+									href="https://twitter.com/uncopied_art"
 									fontSize="1.8rem"
 									mr={5}
 									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
@@ -116,7 +127,7 @@ export default function Footer() {
 								/>
 								<IconButton
 									as="a"
-									href="#"
+									href="http://github.com/uncopied"
 									fontSize="1.8rem"
 									mr={5}
 									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
@@ -124,7 +135,7 @@ export default function Footer() {
 								/>
 								<IconButton
 									as="a"
-									href="#"
+									href="https://www.facebook.com/uncopied"
 									fontSize="1.8rem"
 									mr={5}
 									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
@@ -132,7 +143,7 @@ export default function Footer() {
 								/>
 								<IconButton
 									as="a"
-									href="#"
+									href="https://www.instagram.com/uncopied_art"
 									fontSize="1.8rem"
 									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
 									icon={<FontAwesomeIcon icon={faInstagram} />}

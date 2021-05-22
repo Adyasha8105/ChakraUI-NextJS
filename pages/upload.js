@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import {
 	Box,
 	Button,
 	Flex,
 	Image,
 	Heading,
-	FormLabel,
 	Text,
 	SimpleGrid,
 	Input,
