@@ -1,21 +1,21 @@
 import { Box, Stack, StackDivider, Link, SimpleGrid,Image,ButtonGroup, IconButton, Heading, Text } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faGithub, faLinkedIn } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
-
   return (
   <Box
     as="footer"
     role="contentinfo"
     py="12"
-    backgroundColor="#202020"
+    backgroundColor="#151414"
     pr={[8,19,50,120]}
     pl={[8,19,50,120]}
     px={8}
   >
-    <Stack spacing="10" divider={<StackDivider />}>
+    <Stack spacing="10" divider={<StackDivider color="#878787" />}>
       <Stack
+        pb={10}
         direction={{
           base: 'column',
           lg: 'row',
@@ -25,10 +25,12 @@ export default function Footer() {
           lg: '28',
         }}
       >
-        <Box flex="1" 
-        w={[100, 120, 150]}
-        objectFit="cover">
-        <Image src="./logo1.svg" alt="Logo" />
+        <Box flex={1}
+        minW="250px">
+          <Image src="./logo.png" alt="Logo" />
+        <Text color="#878787" pt={6} fontSize={{ base: "15px", md:"18px", xl: "22px" }} letterSpacing="1px">
+        Making original truly unique
+        </Text>
         </Box>
         <Stack
           direction={{
@@ -41,44 +43,41 @@ export default function Footer() {
           }}
         >
           <SimpleGrid 
-          columns={2}
+          columns={3}
           spacing={{
             base: '10',
             md: '20',
             lg: '28',
           }}
           flex="1">
-            <Box minW="130px">
-              <Heading
-                as="h4"
-                mb="4"
-                color="#fff"
-                fontSize="sm"
-                fontWeight="semibold"
-                textTransform="uppercase"
-                letterSpacing="wider"
-               >Product </Heading>
-              <Stack color="#fff">
-                <Link>How it works</Link>
-                <Link>Pricing</Link>
-                <Link>Use Cases</Link>
+            <Box minW="300px" >
+              <Stack color="#878787" 
+              fontSize={{ base: "15px", md:"18px", xl: "22px" }}
+              >
+                <Link>Home</Link>
+                <Link>Services</Link>
+                <Link>Our Collective</Link>
               </Stack>
             </Box>
-            <Box minW="130px">
-            <Heading
-                as="h4"
-                mb="4"
-                color="#fff"
-                fontSize="sm"
-                fontWeight="semibold"
-                textTransform="uppercase"
-                letterSpacing="wider"
-               >Legal </Heading>
-              <Stack color="#fff">
-                <Link>Privacy</Link>
-                <Link>Terms</Link>
-                <Link>License</Link>
+            <Box minW="300px"
+            fontSize={{ base: "15px", md:"18px", xl: "22px" }}
+            >
+              <Stack color="#878787">
+                <Link>Blog</Link>
+                <Link>Why Uncopied?</Link>
+                <Link>Contact Us</Link>
               </Stack>
+            </Box>
+            <Box Box minW="200px">
+            <Text color="#fff" pb={6} fontSize={{ base: "15px", md:"18px", xl: "22px" }} letterSpacing="1px" fontWeight="semibold">
+              Follow <Text as="abbr" color="rgba(235,109,109)">Us</Text>
+            </Text>
+            <ButtonGroup variant="ghost" color="#878787">
+              <IconButton as="a" href="#" fontSize="2rem" mr={5} _hover={{backgroundColor: "rgba(235,109,109)", color: "#fff"}} icon={<FontAwesomeIcon icon={faTwitter} />} />
+              <IconButton as="a" href="#" fontSize="2rem" mr={5} _hover={{backgroundColor: "rgba(235,109,109)", color: "#fff"}} icon={<FontAwesomeIcon icon={faGithub} />} />
+              <IconButton as="a" href="#" fontSize="2rem" mr={5} _hover={{backgroundColor: "rgba(235,109,109)", color: "#fff"}} icon={<FontAwesomeIcon icon={faFacebook} />} />
+              <IconButton as="a" href="#" fontSize="2rem" _hover={{backgroundColor: "rgba(235,109,109)", color: "#fff"}} icon={<FontAwesomeIcon icon={faInstagram} />} />
+            </ButtonGroup>
             </Box>
           </SimpleGrid>
         </Stack>
@@ -89,16 +88,11 @@ export default function Footer() {
           md: 'row',
         }}
         justifyContent="space-between"
-        alignItems="center"
+        alignSelf="center"
       >
-          <Text fontSize="sm" color="#fff">
-            &copy; {new Date().getFullYear()} Envelope, Inc. All rights reserved.
+          <Text color="#878787" fontSize={{ base: "15px", md:"18px", xl: "22px" }} >
+            Copyright &copy; {new Date().getFullYear()} , All Rights Reserved <Text as="abbr" color="rgba(235,109,109)">Uncopied</Text>
           </Text>
-        <ButtonGroup variant="ghost" color="#fff">
-          <IconButton as="a" href="#" fontSize="1.5rem" icon={<FontAwesomeIcon icon={faTwitter} />} />
-          <IconButton as="a" href="#" fontSize="1.5rem" icon={<FontAwesomeIcon icon={faGithub} />} />
-          <IconButton as="a" href="#" fontSize="1.5rem" icon={<FontAwesomeIcon icon={faLinkedIn} />} />
-        </ButtonGroup>
       </Stack>
     </Stack>
   </Box>
