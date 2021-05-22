@@ -17,7 +17,7 @@ const Header = (props) => {
 			as="nav"
 			justify="space-between"
 			wrap="wrap"
-			padding={6}
+			padding={4}
 			bg="white"
 			color="white"
 			boxShadow="0 5px 10px rgb(154 160 185 / 5%), 0 15px 40px rgb(166 173 201 / 20%)"
@@ -56,7 +56,7 @@ const Header = (props) => {
 					_hover={{ opacity: "0.8", borderColor: "white" }}
 					_active={{ color: "white" }}
 				>
-					SIGN IN
+					Sign In
 				</Button>
 				<Button
 					bg="black"
@@ -66,7 +66,7 @@ const Header = (props) => {
 					_hover={{ opacity: "0.8", borderColor: "white" }}
 					_active={{ color: "white" }}
 				>
-					SIGN UP
+					Sign Up
 				</Button>
 			</Box>
 		</Flex>
