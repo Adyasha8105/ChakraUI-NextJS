@@ -4,14 +4,13 @@ import {
 	StackDivider,
 	Link,
 	SimpleGrid,
-	Image,
 	ButtonGroup,
 	IconButton,
 	Text,
-	Select,
 } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faGithub, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
 	return (
@@ -37,22 +36,26 @@ export default function Footer() {
 						lg: "28",
 					}}
 				>
-					<Box flex={1} minW={240}>
-						<Image src="./logo.png" w={[100, 130]} alt="Logo" />
+					<Box
+					  flex={1} minW={240}
+						w={[100, 130]}
+						fontWeight="bold"
+						color="#fff"
+						fontSize={{ base: "20x", md: "25px", xl: "35px" }}
+					>
+						HEY{" "}
+						<Text as="abbr" color="#6C63FF">
+							YOU
+						</Text>
+						.
 						<Text
 							color="#878787"
 							py={4}
 							fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 							letterSpacing="1px"
 						>
-							Making original truly unique
+							Thanks for visiting ♡
 						</Text>
-						<Box>
-							<Select size="xs" w={20} color="#151414" bg="#fff">
-								<option value="en">EN</option>
-								<option value="fr">FR</option>
-							</Select>
-						</Box>
 					</Box>
 					<Stack
 						direction={{
@@ -75,16 +78,16 @@ export default function Footer() {
 						>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link href="/">Home</Link>
-									<Link href="https://uncopied.art/blog/">Services</Link>
-									<Link href="https://uncopied.art/about/">Our Collective</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>Home</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>Services</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>About</Link>
 								</Stack>
 							</Box>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link href="https://uncopied.art/about/">Blog</Link>
-									<Link href="https://opencollective.com/uncopied">Why Uncopied?</Link>
-									<Link href="https://uncopied.art/contact/">Contact Us</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>Blog</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>License</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>Contact Us</Link>
 								</Stack>
 							</Box>
 						</SimpleGrid>
@@ -108,41 +111,41 @@ export default function Footer() {
 								fontWeight="semibold"
 							>
 								Follow{" "}
-								<Text as="abbr" color="rgba(235,109,109)">
+								<Text as="abbr" color="#6C63FF">
 									Us
 								</Text>
 							</Text>
 							<ButtonGroup variant="ghost" color="#878787">
 								<IconButton
 									as="a"
-									href="https://twitter.com/uncopied_art"
+									href="https://twitter.com/Adyasha8105"
 									fontSize="1.8rem"
 									mr={5}
-									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
+									_hover={{ backgroundColor: "#6C63FF", color: "#fff" }}
 									icon={<FontAwesomeIcon icon={faTwitter} />}
 								/>
 								<IconButton
 									as="a"
-									href="http://github.com/uncopied"
+									href="https://github.com/Adyasha8105"
 									fontSize="1.8rem"
 									mr={5}
-									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
+									_hover={{ backgroundColor: "#6C63FF", color: "#fff" }}
 									icon={<FontAwesomeIcon icon={faGithub} />}
 								/>
 								<IconButton
 									as="a"
-									href="https://www.facebook.com/uncopied"
+									href="https://www.adyablogs.tech/"
 									fontSize="1.8rem"
 									mr={5}
-									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
-									icon={<FontAwesomeIcon icon={faFacebook} />}
+									_hover={{ backgroundColor: "#6C63FF", color: "#fff" }}
+									icon={<FontAwesomeIcon icon={faBlog} />}
 								/>
 								<IconButton
 									as="a"
-									href="https://www.instagram.com/uncopied_art"
+									href="https://www.linkedin.com/in/adyasha-mohanty-7a6254191/"
 									fontSize="1.8rem"
-									_hover={{ backgroundColor: "rgba(235,109,109)", color: "#fff" }}
-									icon={<FontAwesomeIcon icon={faInstagram} />}
+									_hover={{ backgroundColor: "#6C63FF", color: "#fff" }}
+									icon={<FontAwesomeIcon icon={faLinkedin} />}
 								/>
 							</ButtonGroup>
 						</Box>
@@ -161,10 +164,7 @@ export default function Footer() {
 						textAlign="center"
 						fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 					>
-						Copyright &copy; {new Date().getFullYear()} , All Rights Reserved{" "}
-						<Text as="abbr" color="rgba(235,109,109)">
-							Uncopied
-						</Text>
+						Copyright &copy; {new Date().getFullYear()} , All Rights Reserved.{" "}
 					</Text>
 				</Stack>
 			</Stack>

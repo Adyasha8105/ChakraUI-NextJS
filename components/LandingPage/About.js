@@ -11,7 +11,7 @@ export default function About() {
 				px={8}
 				mb={16}
 			>
-				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
+				<Box w={{ base: "60%", sm: "40%", md: "30%" }} mb={{ base: 10, md: 0 }}>
 					<Image src="./about.svg" size="100%" />
 				</Box>
 				<Stack
@@ -26,9 +26,9 @@ export default function About() {
 						letterSpacing="2%"
 						textAlign={["center", "center", "left", "left"]}
 					>
-						<Text as="abbr">About </Text>
-						<Text as="abbr" color="rgba(235,109,109)">
-							Us
+						<Text as="abbr">Lorem </Text>
+						<Text as="abbr" color="#6C63FF">
+							Ipsum
 						</Text>
 					</Heading>
 					<Heading
@@ -37,9 +37,10 @@ export default function About() {
 						textAlign={["center", "center", "left", "left"]}
 					>
 						<Text as="abbr" opacity="0.7" fontWeight="normal">
-							UNCOPIED is a spin-off project of NAMSOR SAS, a French Limited Company based in
-							Versailles, France. Open source code and IPFS infrastructure are maintained by the
-							UNCOPIED Collective.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+							unknown printer took a galley of type and scrambled it to make a type specimen book.
+							It has survived not only five centuries, but also the leap into electronic
+							typesetting, remaining essentially unchanged.
 						</Text>
 					</Heading>
 				</Stack>

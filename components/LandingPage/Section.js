@@ -4,54 +4,31 @@ import {
 	faUserPlus,
 	faImage,
 	faFileCode,
-	faGem,
-	faFileSignature,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function Howitworks() {
+export default function Section() {
 	const dataList = [
 		{
 			id: 1,
 			icon: faUserPlus,
-			heading: "Create Account",
+			heading: "Lorem Ipsum",
 			summary:
-				"Create your personal account with your artist name. Optionally link your account with your blockchain address.",
+				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
 		},
 		{
 			id: 2,
 			icon: faImage,
-			heading: "Upload Artwork",
+			heading: "Lorem Ipsum",
 			summary:
-				"Upload your high-definition source image for long-term conservation in the Interplanetary File System (IPFS).",
+				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
 		},
 		{
 			id: 3,
 			icon: faFileCode,
-			heading: "Create Edition",
+			heading: "Lorem Ipsum",
 			summary:
-				"Create your art edition : unique physical original, limited edition or crypto-art / NFTs.",
-		},
-		{
-			id: 4,
-			icon: faGem,
-			heading: "Mint Blockchain Asset",
-			summary:
-				"We create for you a unique asset (NFT) in the blockchain and you receive the certificate PDF document to your mailbox.",
-		},
-		{
-			id: 5,
-			icon: faFileSignature,
-			heading: "Secure Certificate",
-			summary:
-				"Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
-		},
-		{
-			id: 6,
-			icon: faFileSignature,
-			heading: "Create Account",
-			summary:
-				"Physically cut and sign the chirograph to make each certificate unique and send dupplicate copies to our PO Box.",
-		},
+				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+		}
 	];
 
 	return (
@@ -66,6 +43,7 @@ export default function Howitworks() {
 			pb={[10, 30, 50, 70]}
 			pr={[0, 30, 70]}
 			pl={[0, 30, 70]}
+			backgroundColor="#f3f1f357"
 		>
 			<Heading
 				as="h1"
@@ -76,10 +54,10 @@ export default function Howitworks() {
 				fontSize={{ base: "25px", md: "35px", xl: "42px" }}
 				p={10}
 			>
-				<Text as="abbr">How it</Text>
-				<Text as="abbr" color="rgba(235,109,109)">
+				<Text as="abbr">Lorem </Text>
+				<Text as="abbr" color="#6C63FF">
 					{" "}
-					WORKS ?
+					IPSUM
 				</Text>
 			</Heading>
 			<Flex
@@ -104,7 +82,7 @@ export default function Howitworks() {
 									mt={{ base: 4, md: 0 }}
 									m={{ md: 8 }}
 								>
-									<Icon color="black" textAlign="center" fontSize="7rem" mx="auto" p={6}>
+									<Icon color="#222" textAlign="center" fontSize="7rem" mx="auto" p={6}>
 										<FontAwesomeIcon icon={icon} />
 									</Icon>
 
@@ -112,7 +90,7 @@ export default function Howitworks() {
 										fontWeight="bold"
 										fontSize="2xl"
 										letterSpacing="wide"
-										color="black"
+										color="#222"
 										align="center"
 										pt={4}
 									>

@@ -1,29 +1,29 @@
 import { Box, Flex, Icon, Text, Stack, SimpleGrid, Heading } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPenSquare, faHandsHelping, faCertificate } from "@fortawesome/free-solid-svg-icons";
+import { faPenSquare, faHandsHelping, faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default function Card() {
 	const dataList = [
 		{
 			id: 1,
 			icon: faPenSquare,
-			product: "Artists",
+			product: "Lorem Ipsum",
 			summary:
-				"The Certificate of Authenticity (CoA) offers strong long term protection for your intellectual property. You gain control and decide with maximum flexibility on creating physical or digital editions of your artworks (single original edition, limited edition of original prints, digital prints or non fungible tokens NFTs).",
+				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
 		},
 		{
 			id: 2,
 			icon: faHandsHelping,
-			product: "Collectors",
+			product: "Lorem Ipsum",
 			summary:
-				"The Certificate of Expertise (CoE) secure your collection of physical art works with digitally signed documents from world-class experts and art appraisers. Crypto art collectors can issue new cryptographic certificates for older NFT collectibles, backing up digital sources and transaction history from Ethereum ERC721 or ERC1155.",
+				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
 		},
 		{
 			id: 3,
-			icon: faCertificate,
-			product: "Museums",
+			icon: faHandHoldingHeart,
+			product: "Lorem Ipsum",
 			summary:
-				"The Certificates of Inventory (CoI) support conservation of your physical collections, with long term conservation of digital assets as well as dissemination of your collections metadata in a standard and future-proof format.",
+				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
 		},
 	];
 
@@ -37,7 +37,7 @@ export default function Card() {
 			pt={[10, 30, 50, 70]}
 			pb={[10, 30, 50, 70]}
 			px={[0, 10]}
-			backgroundColor="#F3F1F3"
+
 		>
 			<SimpleGrid columns={[1, 2, 3]}>
 				{dataList.map(function (data) {
@@ -53,9 +53,10 @@ export default function Card() {
 							bgColor="white"
 							transition="transform 0.5s"
 							borderRadius="8px"
+							backgroundColor="#f3f1f357"
 							_hover={{
-								border: "1px solid rgba(235,109,109)",
-								boxShadow: "0px 0px 25px 0px rgba(95, 95, 95, 0.24)",
+								border: "1px solid #6C63FF",
+								boxShadow: "0px 0px 25px 0px rgba(108,99,255, 0.1)",
 								transform: "scale(1.01)",
 							}}
 						>
@@ -66,12 +67,12 @@ export default function Card() {
 								m={{ md: 4 }}
 							>
 								<Icon
-									color="rgba(235,109,109)"
+									color="#6C63FF"
 									borderRadius="50%"
 									textAlign="center"
 									fontSize="5rem"
 									mx="auto"
-									backgroundColor="rgba(235,109,109, 0.1)"
+									backgroundColor="rgba(108,99,255, 0.1);"
 									p={6}
 								>
 									<FontAwesomeIcon icon={icon} />
@@ -82,7 +83,7 @@ export default function Card() {
 									textTransform="uppercase"
 									fontSize="xl"
 									letterSpacing="wide"
-									color="black"
+									color="#222"
 									align="center"
 									pt={4}
 								>

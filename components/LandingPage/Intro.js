@@ -27,9 +27,9 @@ export default function Into() {
 						letterSpacing="1px"
 						textAlign={["center", "center", "left", "left"]}
 					>
-						<Text as="abbr">Making Original Truely </Text>
-						<Text as="abbr" color="rgba(235,109,109)">
-							UNIQUE
+						<Text as="abbr">LOREM </Text>
+						<Text as="abbr" color="#6C63FF">
+						  Ipsum
 						</Text>
 					</Heading>
 					<Heading
@@ -39,15 +39,15 @@ export default function Into() {
 						letterSpacing="1px"
 					>
 						<Text as="abbr" color="primary.700" opacity="0.7" fontWeight="normal">
-							Elegant and digitally immutable certificates of authenticity for the original artwork.{" "}
+							A simple dummy text of the printing and typesetting industry. {" "}
 						</Text>
 						<Text as="abbr" fontWeight="semibold" color="primary.800">
-							Soft launch June 2021!
+							Just Have a Look on it.
 						</Text>
 					</Heading>
 					{/* <Link to="/signup"> */}
 					<Button
-						bg="black"
+						bg="#222"
 						variant="outline"
 						color="white"
 						fontSize={{ base: "14px", md: "14px", xl: "16px" }}
@@ -55,7 +55,7 @@ export default function Into() {
 						_hover={{ opacity: "0.8", borderColor: "white" }}
 						_active={{ color: "white" }}
 					>
-						Discover
+						Button
 					</Button>
 					{/* </Link> */}
 				</Stack>
