@@ -6,6 +6,7 @@ import About from "./LandingPage/About";
 export default function Main() {
 	return (
 		<>
+      <title>HEY YOU.</title>
 			<Intro />
 			<Card />
 			<Section />
