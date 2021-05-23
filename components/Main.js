@@ -1,17 +1,17 @@
-import Intro from "./Intro"
-import Card from "./Card"
-import Howitworks from "./Howitworks"
-import Certificate from "./Certificate"
-import About from "./About"
+import Intro from "./LandingPage/Intro";
+import Card from "./LandingPage/Card";
+import Howitworks from "./LandingPage/Howitworks";
+import Certificate from "./LandingPage/Certificate";
+import About from "./LandingPage/About";
 
 export default function Main() {
-  return (
-    <>
-  <Intro />
-  <Card />
-  <Howitworks />
-  <Certificate />
-  <About />
-  </>
-  )
+	return (
+		<>
+			<Intro />
+			<Card />
+			<Howitworks />
+			<Certificate />
+			<About />
+		</>
+	);
 }

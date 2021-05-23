@@ -8,7 +8,7 @@ import {
 	ButtonGroup,
 	IconButton,
 	Text,
-	Select
+	Select,
 } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faGithub, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -48,14 +48,10 @@ export default function Footer() {
 							Making original truly unique
 						</Text>
 						<Box>
-						<Select
-							size="xs"
-							w={20}
-							color="#151414"
-							bg="#fff">
-							<option value="en">EN</option>
-							<option value="fr">FR</option>
-						</Select>
+							<Select size="xs" w={20} color="#151414" bg="#fff">
+								<option value="en">EN</option>
+								<option value="fr">FR</option>
+							</Select>
 						</Box>
 					</Box>
 					<Stack

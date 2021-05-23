@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Heading, Stack, Text } from "@chakra-ui/react";
-export default function Main() {
+export default function About() {
 	return (
 		<>
 			<Flex

@@ -1,17 +1,10 @@
 import { Box, Flex, Button, Image, useDisclosure, Link } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { useRouter } from "next/router";
 
 const Header = (props) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const router = useRouter();
 	const handleToggle = () => (isOpen ? onClose() : onOpen());
 
-	const routeToUpload = () => {
-		router.push("/upload", "/upload");
-	};
 	return (
 		<Flex
 			as="nav"
@@ -38,16 +31,6 @@ const Header = (props) => {
 			</Box>
 
 			<Box display={{ base: isOpen ? "block" : "none", sm: "block" }} mt={{ base: 6, sm: 0 }}>
-				<Button
-					border="none"
-					color="rgba(235,109,109)"
-					variant="outline"
-					me={2}
-					fontSize={{ base: "14px", md: "16px", xl: "22px" }}
-					onClick={routeToUpload}
-				>
-					<FontAwesomeIcon icon={faEye} />
-				</Button>
 				<Button
 					bg="black"
 					fontSize={{ base: "14px", md: "14px", xl: "16px" }}
