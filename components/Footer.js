@@ -37,7 +37,8 @@ export default function Footer() {
 					}}
 				>
 					<Box
-					  flex={1} minW={240}
+						flex={1}
+						minW={240}
 						w={[100, 130]}
 						fontWeight="bold"
 						color="#fff"
@@ -54,7 +55,7 @@ export default function Footer() {
 							fontSize={{ base: "14px", md: "14px", xl: "16px" }}
 							letterSpacing="1px"
 						>
-							Thanks for visiting ♡
+							Thanks for visiting :D
 						</Text>
 					</Box>
 					<Stack
@@ -78,16 +79,28 @@ export default function Footer() {
 						>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>Home</Link>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>Services</Link>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>About</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										Home
+									</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										Services
+									</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										About
+									</Link>
 								</Stack>
 							</Box>
 							<Box minW={[0, 100, 300]}>
 								<Stack color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>Blog</Link>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>License</Link>
-									<Link href="/" _hover={{ color: "#6C63FF" }}>Contact Us</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										Blog
+									</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										License
+									</Link>
+									<Link href="/" _hover={{ color: "#6C63FF" }}>
+										Contact Us
+									</Link>
 								</Stack>
 							</Box>
 						</SimpleGrid>
@@ -157,14 +170,12 @@ export default function Footer() {
 						md: "row",
 					}}
 					justifyContent="space-between"
-					alignSelf="center"
 				>
-					<Text
-						color="#878787"
-						textAlign="center"
-						fontSize={{ base: "14px", md: "14px", xl: "16px" }}
-					>
+					<Text color="#878787" fontSize={{ base: "14px", md: "14px", xl: "16px" }}>
 						Copyright &copy; {new Date().getFullYear()} , All Rights Reserved.{" "}
+					</Text>
+					<Text color="#878787" fontSize={{ base: "14px", md: "14px", xl: "14px" }}>
+						Made with <Text as="abbr" color="#6C63FF">CHAKRA UI </Text>and ♡
 					</Text>
 				</Stack>
 			</Stack>

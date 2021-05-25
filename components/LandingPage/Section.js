@@ -1,30 +1,30 @@
 import { Box, Flex, Icon, Text, Stack, SimpleGrid, Container, Heading } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faUserPlus,
-	faImage,
-	faFileCode,
+	faStar,
+	faLaptopCode,
+	faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Section() {
 	const dataList = [
 		{
 			id: 1,
-			icon: faUserPlus,
+			icon: faStar,
 			heading: "Lorem Ipsum",
 			summary:
 				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
 		},
 		{
 			id: 2,
-			icon: faImage,
+			icon: faLaptopCode,
 			heading: "Lorem Ipsum",
 			summary:
 				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
 		},
 		{
 			id: 3,
-			icon: faFileCode,
+			icon: faBook,
 			heading: "Lorem Ipsum",
 			summary:
 				"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",

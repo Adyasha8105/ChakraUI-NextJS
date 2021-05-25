@@ -11,9 +11,6 @@ export default function About() {
 				px={8}
 				mb={16}
 			>
-				<Box w={{ base: "60%", sm: "40%", md: "30%" }} mb={{ base: 10, md: 0 }}>
-					<Image src="./about.svg" size="100%" />
-				</Box>
 				<Stack
 					spacing={8}
 					w={{ base: "80%", md: "40%" }}
@@ -44,6 +41,9 @@ export default function About() {
 						</Text>
 					</Heading>
 				</Stack>
+				<Box w={{ base: "60%", sm: "40%", md: "30%" }} mb={{ base: 10, md: 0 }}>
+					<Image src="./about.svg" size="100%" />
+				</Box>
 			</Flex>
 		</>
 	);

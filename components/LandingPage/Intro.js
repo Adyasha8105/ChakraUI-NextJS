@@ -13,6 +13,9 @@ export default function Into() {
 				pt={[10, 30, 50, 70]}
 				pb={[10, 30, 50, 70]}
 			>
+				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
+					<Image src="./Intro.svg" size="100%" />
+				</Box>
 				<Stack
 					spacing={8}
 					w={{ base: "80%", md: "40%" }}
@@ -29,7 +32,7 @@ export default function Into() {
 					>
 						<Text as="abbr">LOREM </Text>
 						<Text as="abbr" color="#6C63FF">
-						  Ipsum
+							Ipsum
 						</Text>
 					</Heading>
 					<Heading
@@ -39,7 +42,7 @@ export default function Into() {
 						letterSpacing="1px"
 					>
 						<Text as="abbr" color="primary.700" opacity="0.7" fontWeight="normal">
-							A simple dummy text of the printing and typesetting industry. {" "}
+							A simple dummy text of the printing and typesetting industry.{" "}
 						</Text>
 						<Text as="abbr" fontWeight="semibold" color="primary.800">
 							Just Have a Look on it.
@@ -59,9 +62,6 @@ export default function Into() {
 					</Button>
 					{/* </Link> */}
 				</Stack>
-				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
-					<Image src="./Intro.svg" size="100%" />
-				</Box>
 			</Flex>
 		</>
 	);
