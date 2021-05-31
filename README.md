@@ -3,11 +3,9 @@
       <img width="200" src="https://user-images.githubusercontent.com/54095539/120164025-c03a1380-c217-11eb-80e9-c8d31c7e6aa7.png" class="loaded">
   </a>
 </p> 
-<p align="center">Made with ♥ by <a href="https://www.adyablogs.tech/">Adyahsa Mohanty</a></p>
+<p align="center">Made with ♡ by <a href="https://www.adyablogs.tech/">Adyahsa Mohanty</a></p>
 <p align="center">Give it a ⭐, if you liked it!</p>
 
-<br />
-<hr>
 <br />
 
 ## Table of Contents
@@ -25,17 +23,18 @@
 ## About the Project
 
 This pandemic helped me bring out the best in me. I worked on my designing skills, build my skills basically on the MERN stack and learnt as much as I can about new technologies.
-So for that I made a landing page that could help you to get a brief idea about the basic functionalities of Chakra UI and Next JS.
+So for that I made a landing page (small project) that could help you to get a brief idea about the basic functionalities using *Chakra UI* interface library on *Next JS* ;)
 
 If you like it, show some love by giving it a ⭐
 
 ### Built With
 
-This is made using amazing NextJS, a React framework that is widely known for it's performance and SEO optimisation.
+This is made using amazing *NextJS*, a React framework that is widely known for it's performance and SEO optimisation and *Chakra UI* , simple and accessible component library that gives you the building blocks you need to build your React applications.
+
 Here are a few more things, included:
 
 - [NextJS](https://nextjs.org/)
-- [ChakraUI](https://chakra-ui.com/)
+- [ChakraUI library](https://chakra-ui.com/)
 - [unDraw](https://undraw.co/) for amazing SVG Images
 
 ## Getting Started
@@ -90,7 +89,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 
-If you are having any dope ideas to improve this (_even as little as changing the font-face_), don't just think twice. Go ahead and create an issue or let me know on [Twitter](https://twitter.com/heytulsiprasad). We can improve it together.
+If you are having any dope ideas to improve this (_even as little as changing the font-face_), don't just think twice. Go ahead and create an issue or let me know on [Twitter](https://twitter.com/Adyasha8105). We can improve it together :D
 
 ## License
 
