@@ -1,34 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://chakra-ui-next-js.vercel.app">
+      <img width="200" src="https://user-images.githubusercontent.com/54095539/120163188-deebda80-c216-11eb-8d37-64843c61971c.png" class="loaded">
+  </a>
+</p> 
+<p align="center">Made with ♥ by <a href="https://www.adyablogs.tech/">Adyahsa Mohanty</a></p>
+<p align="center">Give it a ⭐, if you liked it!</p>
+
+<br />
+<hr>
+<br />
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+- [Learn More](#learn-more)
+  - [Deployment](#deploy-on-vercel)
+- [Contribute](#contribute)
+- [License](#license)
+- [Contact](#contact)
+
+## About the Project
+
+This pandemic helped me bring out the best in me. I worked on my designing skills, build my skills basically on the MERN stack and learnt as much as I can about new technologies.
+So for that I made a landing page that could help you to get a brief idea about the basic functionalities of Chakra UI and Next JS.
+
+If you like it, show some love by giving it a ⭐
+
+### Built With
+
+This is made using amazing NextJS, a React framework that is widely known for it's performance and SEO optimisation.
+Here are a few more things, included:
+
+- [NextJS](https://nextjs.org/)
+- [ChakraUI](https://chakra-ui.com/)
+- [unDraw](https://undraw.co/) for amazing SVG Images
 
 ## Getting Started
 
-First, run the development server:
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/Adyasha8105/ChakraUI-NextJS.git
+```
+
+2. Install NPM packages (preferred `yarn`)
+
+- First install `yarn` by
+
+```sh
+npm install -g yarn
+```
+
+- Then install packages in project by running
+
+```sh
+yarn
+```
+
+3. Start development server
+
+```sh
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the prerequisites, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [ChakraUI Documentation](https://chakra-ui.com/docs/getting-started) - learn about ChakraUI features.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contribute
+
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
+
+If you are having any dope ideas to improve this (_even as little as changing the font-face_), don't just think twice. Go ahead and create an issue or let me know on [Twitter](https://twitter.com/heytulsiprasad). We can improve it together.
+
+## License
+
+Distributed under the GNU License. See `LICENSE.md` for more information.
+
+## Contact
+
+📫 I usually hangout on [Twitter](https://twitter.com/Adyasha8105).
