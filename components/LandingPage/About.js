@@ -1,4 +1,6 @@
-import { Box, Flex, Image, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import Image from "next/image";
+
 export default function About() {
 	return (
 		<>
@@ -41,8 +43,8 @@ export default function About() {
 						</Text>
 					</Heading>
 				</Stack>
-				<Box w={{ base: "60%", sm: "40%", md: "30%" }} mb={{ base: 10, md: 0 }}>
-					<Image src="./about.svg" size="100%" />
+				<Box w={{ base: "65%", sm: "45%", md: "35%" }} mb={{ base: 10, md: 0 }}>
+					<Image src="/about.svg" width={600} height={600} alt="about" />
 				</Box>
 			</Flex>
 		</>

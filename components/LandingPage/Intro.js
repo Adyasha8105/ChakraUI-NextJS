@@ -1,4 +1,6 @@
-import { Box, Button, Flex, Image, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import Image from "next/image";
+
 export default function Into() {
 	return (
 		<>
@@ -13,8 +15,8 @@ export default function Into() {
 				pt={[10, 30, 50, 70]}
 				pb={[10, 30, 50, 70]}
 			>
-				<Box w={{ base: "70%", sm: "50%", md: "40%" }} mb={{ base: 10, md: 0 }}>
-					<Image src="./Intro.svg" size="100%" />
+				<Box w={{ base: "65%", sm: "45%", md: "35%" }} mb={{ base: 10, md: 0 }}>
+					<Image src="/Intro.svg" width={600} height={600} alt="intro" />
 				</Box>
 				<Stack
 					spacing={8}
