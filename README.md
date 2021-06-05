@@ -3,7 +3,7 @@
       <img width="200" src="https://user-images.githubusercontent.com/54095539/120164025-c03a1380-c217-11eb-80e9-c8d31c7e6aa7.png" class="loaded">
   </a>
 </p> 
-<p align="center">Made with ♡ by <a href="https://www.adyablogs.tech/">Adyahsa Mohanty</a></p>
+<p align="center">Made with ♡ by <a href="https://www.adyablogs.tech/">Adyahsa Mohanty</a>🦄</p>
 <p align="center">Give it a ⭐, if you liked it!</p>
 
 <br />
